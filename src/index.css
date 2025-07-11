@@ -253,6 +253,7 @@ ul {
   margin-top: 1rem;
 }
 
+/* ========================================= */
 /* ============= PROJECT CSS =============== */
 
 /* optional overwrite */
@@ -305,5 +306,45 @@ main {
   color: var(--grey-500);
 }
 
- /* ====================== */
-/* ===== CUSTOM CSS ===== */
+/* =============================== */
+/* =====-= CUSTOM =--= CSS =-===== */
+/* - - - - - - - - - - - - - - - - */
+.person-container {
+  position: relative;
+}
+.person-container button {
+  position: absolute;
+  top: 1rem;
+  right: 5rem;
+  padding-bottom: 1px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 0, 195);
+  border: 1px solid rgb(255, 0, 195);
+  background-color: #fff;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.person-container button:hover {
+  color: rgb(158, 0, 39);
+  border: 1px solid rgb(157, 0, 39);
+  transition: all 0.4s;
+}
+.buttons {
+  display: flex;
+  justify-content: end;
+  /* padding-right: 4.4rem; */
+}
+.buttons .btn-block {
+  margin-right: 1rem;
+  padding: 0.5rem 2rem;
+}
+.center {
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}

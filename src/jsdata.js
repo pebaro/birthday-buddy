@@ -1,4 +1,4 @@
-export const peopleData = [
+export default [
   {
     id: 1,
     name: 'Bertie Yates',
@@ -29,4 +29,4 @@ export const peopleData = [
     age: 29,
     image: 'https://www.course-api.com/images/people/person-5.jpeg',
   },
-]
+];
